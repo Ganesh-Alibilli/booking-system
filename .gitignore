@@ -1,0 +1,55 @@
+# --------------------------------------------------
+# Node.js / Express Backend Ignore Rules
+# --------------------------------------------------
+
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Build and runtime artifacts
+dist/
+build/
+coverage/
+.cache/
+.tmp/
+.DS_Store
+
+# Logs
+logs
+*.log
+log.txt
+debug.log
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# PID files
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS junk files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor folders
+.vscode/
+.idea/
+*.swp
+
+# Local scripts or backups
+*.bak
+*.orig
+
+# Render specific temporary files (if any)
+.render/
+
